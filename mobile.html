@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sixteen</title>
+    <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,900|Droid+Serif' rel='stylesheet' type='text/css'>
+    <style>
+      
+      body {
+        margin: 0;
+        font-size: 16px;
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+      nav {
+        background-color: #acd373;
+        height: 40px;
+        line-height: 40px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.06);
+        position: relative;
+      }
+      
+      nav .main {
+        display: none;
+      }
+      
+      .logo {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 30px;
+        margin-top: 8px;
+      }
+      
+      .logo img {
+        height: 25px;
+      }
+      
+      .toggle {
+        background-color: #89a85c;
+        display: inline-block;
+        padding: 0 15px;
+        float: right;
+      }
+      .intro {
+        color: #f7f7f7;
+        height: 350px;
+        background: #9abd67 url('images/skyline.png') repeat-x bottom;
+        background-size: auto 85px;
+      }
+      
+      .intro > div {
+        text-align: center;
+        padding-top: 125px;
+      }
+      
+      h1 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      
+      h2 {
+        font-family: 'Droid Serif', serif;
+        font-style: italic;
+        font-size: 13px;
+        font-weight: normal;
+        margin-top: 20px;
+      }
+      
+      .arrow {
+        display: inline-block;
+        margin-top: 57px;
+      }
+      
+      .arrow img {
+        height: 14px;
+      }
+        
+        .about-us {
+            padding:29px
+        }
+        
+        #about-us-img{
+            text-align:center;
+            padding-top:15px;
+        } 
+        
+        .about-us h1{
+            font: 400 18px 'Source Sans Pro';
+            background: url('images/who-we-are.png') no-repeat; 
+            height: 30px;
+            padding-left: 38px;
+            line-height: 30px;
+        }
+        
+        .about-us p{
+            font: 400 13px 'Source Sans Pro';
+        }
+        
+        .button{
+            font: italic 12px DroidSerif;
+            color: #acd473;
+            text-decoration: none;
+            border: #acd473 1px solid;
+            padding:7px 15px
+        }       
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="content">
+        <a href="#" class="logo">
+          <img src="images/sixteen-logo.png" alt="Sixteen">
+        </a>
+
+        <span class="main">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Team</a>
+          <a href="#">Works</a>
+          <a href="#">Client Say</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </span>
+
+        <a href="#" class="toggle">
+          <img src="images/toggle.png" alt="Toggle Menu">
+        </a>
+      </div>
+    </nav>
+    <div class="intro">
+      <div>
+        <h1>We are Sixteen Digital Agency</h1>
+        <h2>Based out of Jakarta, Indonesia</h2>
+        <a href="#" class="arrow">
+          <img src="images/arrow.png" alt="Go down">
+        </a>
+      </div>
+    </div>
+    <div class="about-us">
+        <div id="about-us-img">
+            <img src="images/iphone.png" />
+        </div>
+        <h1>Who We Are</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quam in omnis voluptates, optio architecto doloremque eius, nihil, error nemo cum ad consequuntur numquam saepe quibusdam nam dolore sunt aliquam. Modi, ut error voluptas iure, nemo, est.</p>
+        <a href="#" class="button">Learn More</a>
+    </div>
+  </body>
+</html>
